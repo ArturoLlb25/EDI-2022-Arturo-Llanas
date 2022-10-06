@@ -15,13 +15,13 @@ int main() {
 void compara(int a,int *b,int *c){
     int auxb=*b,auxc=*c;
     if(a>*b){
-        auxb=*b*2;
+        auxb=auxb*2;
     }
     if(a<*b){
         auxc=*c-a;
     }
     if(*c<0){
-        auxc=*c*-1;
+        auxc=auxc*-1;
     }
     *b=auxb;
     *c=auxc;
